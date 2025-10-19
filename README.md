@@ -6,7 +6,7 @@ A browser extension that helps you filter your YouTube "Watch Later" playlist by
 
 ---
 
-![alt text](image-2.png)
+![alt text](1.png)
 
 ## What It Does
 
