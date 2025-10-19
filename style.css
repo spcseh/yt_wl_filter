@@ -1,0 +1,63 @@
+#yt-filter-bar {
+  position: fixed;
+  inset-block-start: var(--ytd-toolbar-offset, 72px);
+  inset-inline-end: max(2vw, 20px);
+  background: linear-gradient(135deg, #0004f8, #0004f8); /* Pikachu yellow gradient */
+  border: 2px solid #0004f8; /* slightly darker yellow border */
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 16px;
+  z-index: 99999;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: pikachu-glow 3s infinite alternate;
+}
+
+/* Input & Button styling */
+#yt-filter-bar select,
+#yt-filter-bar input,
+#yt-filter-bar button {
+  background: #fff;
+  border: 2px solid #0004f8;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#yt-filter-bar button {
+  background: #FFD700; /* Pikachu's red cheeks color */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#yt-filter-bar button:hover {
+  background: #FFD700;
+  transform: scale(1.05);
+}
+
+#yt-filter-bar select:focus,
+#yt-filter-bar input:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 8px rgba(244, 67, 54, 0.6);
+}
+
+/* Cute glowing effect */
+@keyframes pikachu-glow {
+  0% { box-shadow: 0 0 10px #0004f8; }
+  100% { box-shadow: 0 0 20px #0004f8; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #yt-filter-bar {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Watch Later Filter",
+  "description": "Filter Watch Later playlist by channel or video length.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/playlist?list=WL"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.youtube.com/*"]
+}
