@@ -83,16 +83,20 @@ Enjoy a cleaner Watch Later experience! 🚀
 
 ---
 
+## Some pictures of use
+
+![alt text](<Screenshot 1(575).png>)
+![alt text](<Screenshot 2 (576).png>)
+
+---
+
 ## 📝 Changelog
 
 ### [v1.1] - 2025-10-21
 - ✨ Added the 'refresh' button to addressed the issue of channels not showing. Every time you click on it (after youtube's dynamic loading thing), additional channels will appear in the dropdown. (if any).
 - ✨ Added the channel counter which displays the number of channels present in the dropdown.
-- 
-- 🖼️ Updated screenshot in the README.  
+- 🖼️ Updated screenshot in the below.  
 
 
-## Some pictures of use
 ![alt text](<1.1.png>)
-![alt text](<Screenshot 1(575).png>)
-![alt text](<Screenshot 2 (576).png>)
+
